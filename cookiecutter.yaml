@@ -12,9 +12,9 @@ banner:
   location: Seattle, WA
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
   links:
-  # - url: intro.html
-  #   title: Event Jupyter Book
-  #   new_window: false
+   - url: intro.html
+     title: Event Jupyter Book
+     new_window: false
   image: https://geo-smart.github.io/assets/img/home.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
@@ -27,8 +27,8 @@ about:
     - url: 'https://geosmart-2023.hackweek.io/'
       title: 2023 Hackweek
       new_window: True
-#applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-person
-#  TBD). Applications have not yet opened, but should be anticipated in September 2023.
+applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-person
+  TBD). Applications have not yet opened, but should be anticipated in September 2023.
 # Redirect the site to a different domain.
 #redirect:
 #    url: https://go.somehwere.else
