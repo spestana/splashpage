@@ -1,34 +1,34 @@
 repo_directory: html
-name: UW Hackweek
+name: GeoSmart Hackweek
 apply:
   url: '#'
   title: Application coming soon
 hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
-  description: An awesome learning event.
-  start_date: XX Month
-  end_date: XX Month
-  year: 2023
-  location: Seattle, WA
+  description: Application of Machine Learning in Hydrology and Cryosphere Science.
+  #start_date: XX Month
+  #end_date: XX Month
+  #year: 2023
+  #location: Seattle, WA
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
   links:
   # - url: intro.html
   #   title: Event Jupyter Book
   #   new_window: false
-  image: https://geohackweek.github.io/assets/images/banner.jpg
+  image: https://geo-smart.github.io/assets/img/home.jpg
 # The opening session of the event with UTC offset
-event_countdown: "2024-08-07T08:30:00-07:00"
+#event_countdown: "2024-08-07T08:30:00-07:00"
 about:
   description: Hackweeks are participant-driven events that strive to create
     welcoming spaces for participants to learn new things, build community and
     gain hands-on experience with collaboration and team science
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
-    - url: '#'
-      title: A sample link
+    - url: 'https://geosmart-2023.hackweek.io/'
+      title: 2023 Hackweek
       new_window: True
-applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-person
-  TBD). Applications have not yet opened, but should be anticipated in September 2023.
+#applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-person
+#  TBD). Applications have not yet opened, but should be anticipated in September 2023.
 # Redirect the site to a different domain.
 #redirect:
 #    url: https://go.somehwere.else
@@ -37,16 +37,28 @@ team:
 schedule:
   !include schedule.yaml
 sponsors:
-  description: ''
+  description: 'This event was made possible by the National Science Foundation (Awards #1829585, #2117834) and the eScience Institute in collaboration with CUAHSI and ESIP. Cloud computing infrastructure provided by CryoCloud.'
   organizations:
-  - name: eScience Institute
-    website: ''
-    logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+    - name: eScience Institute
+      website: 'https://escience.washington.edu/'
+      logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+    - name: National Science Foundation
+      website: 'https://www.nsf.gov/'
+      logo_url: https://new.nsf.gov/themes/custom/nsf_theme/components/images/logo/logo-desktop.svg
+    - name: CUAHSI
+      website: 'https://www.cuahsi.org/'
+      logo_url: https://www.cuahsi.org/uploads/pages/img/Round_Logo_No_Text_-_Transparent.png
+    - name: ESIP
+      website: 'https://www.esipfed.org/'
+      logo_url: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/esip-logo_0.png
+    - name: CryoCloud
+      website: 'https://cryointhecloud.com/'
+      logo_url: https://book.cryointhecloud.com/_static/logo.png
 footer:
   social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/uwhackweek/
+    link: https://github.com/geo-smart/
 _copy_without_render:
 - assets
 _extensions:
