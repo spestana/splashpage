@@ -1,15 +1,15 @@
 repo_directory: html
 name: GeoSmart Hackweek
-apply:
-  url: '#'
-  title: Application coming soon
+#apply:
+#  url: '#'
+#  title: Application coming soon
 hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
   description: Application of Machine Learning in Hydrology and Cryosphere Science.
-  #start_date: XX Month
-  #end_date: XX Month
-  #year: 2023
-  #location: Seattle, WA
+  start_date: XX Month
+  end_date: XX Month
+  year: 2023
+  location: Seattle, WA
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
   links:
   # - url: intro.html
