@@ -11,10 +11,10 @@ banner:
   year: 2024
   location: Seattle, WA
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
-  links:
-   - url: intro.html
-     title: Event Jupyter Book
-     new_window: false
+#  links:
+#   - url: intro.html
+#     title: Event Jupyter Book
+#     new_window: false
   image: https://geo-smart.github.io/assets/img/home.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
